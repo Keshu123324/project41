@@ -52,7 +52,7 @@ class Form{
             playerInfoRef.remove();
             game.update(0);
             player.updateCount(0);
-            player.updateplayerPosition(0);
+            Player.updateplayerPosition(0);
         });
 
     }
