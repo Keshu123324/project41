@@ -51,7 +51,8 @@ class Form{
             var playerInfoRef=database.ref('players')
             playerInfoRef.remove();
             game.update(0);
-            player.udateCount(0);
+            player.updateCount(0);
+            player.updateplayerPosition(0);
         });
 
     }
